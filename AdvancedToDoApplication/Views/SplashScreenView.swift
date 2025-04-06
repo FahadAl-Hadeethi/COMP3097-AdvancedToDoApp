@@ -6,7 +6,6 @@ struct SplashScreenView: View {
     var body: some View {
         VStack {
             
-            // App Name
             VStack {
                 Text("Advanced ToDo Application")
                     .font(.largeTitle)

@@ -36,7 +36,6 @@ struct TaskCategoriesView: View {
                         }
                     }
 
-                    // Display the created categories dynamically and make them clickable
                     ForEach(categories, id: \.self) { category in
                         NavigationLink(destination: TaskListView(category: category)) {
                             ZStack {
@@ -70,7 +69,6 @@ struct TaskCategoriesView: View {
         }
     }
 
-    // add categories
     func addCategory() {
         if !newCategory.isEmpty {
             categories.append(newCategory)

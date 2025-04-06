@@ -2,7 +2,7 @@
 //  AdvancedToDoApplicationUITestsLaunchTests.swift
 //  AdvancedToDoApplicationUITests
 //
-//  Created by FF on 2025-03-15.
+//  Created by Fahad Al-Hadeethi on 2025-04-05.
 //
 
 import XCTest
@@ -17,7 +17,6 @@ final class AdvancedToDoApplicationUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
-    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()

@@ -3,66 +3,77 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EA45A83E2DA1A2F20007E5FF /* AdvancedToDoApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45A83D2DA1A2F20007E5FF /* AdvancedToDoApplicationApp.swift */; };
+		EA45A8422DA1A2F30007E5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA45A8412DA1A2F30007E5FF /* Assets.xcassets */; };
+		EA45A8452DA1A2F30007E5FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA45A8442DA1A2F30007E5FF /* Preview Assets.xcassets */; };
+		EA45A8472DA1A2F30007E5FF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45A8462DA1A2F30007E5FF /* Persistence.swift */; };
+		EA45A84A2DA1A2F30007E5FF /* AdvancedToDoApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA45A8482DA1A2F30007E5FF /* AdvancedToDoApplication.xcdatamodeld */; };
+		EA45A8542DA1A2F30007E5FF /* AdvancedToDoApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45A8532DA1A2F30007E5FF /* AdvancedToDoApplicationTests.swift */; };
+		EA45A85E2DA1A2F30007E5FF /* AdvancedToDoApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45A85D2DA1A2F30007E5FF /* AdvancedToDoApplicationUITests.swift */; };
+		EA45A8602DA1A2F30007E5FF /* AdvancedToDoApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45A85F2DA1A2F30007E5FF /* AdvancedToDoApplicationUITestsLaunchTests.swift */; };
+		EA45A86E2DA1A32F0007E5FF /* CreateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45A86D2DA1A32F0007E5FF /* CreateTaskView.swift */; };
+		EA45A8712DA1A3480007E5FF /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45A8702DA1A3480007E5FF /* SplashScreenView.swift */; };
+		EA45A8732DA1A35E0007E5FF /* TaskCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45A8722DA1A35E0007E5FF /* TaskCategoriesView.swift */; };
+		EA45A8752DA1A3770007E5FF /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45A8742DA1A3770007E5FF /* TaskDetailView.swift */; };
+		EA45A8772DA1A3870007E5FF /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45A8762DA1A3870007E5FF /* TaskListView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		A5E3CEE12D867AC7004F7630 /* PBXContainerItemProxy */ = {
+		EA45A8502DA1A2F30007E5FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A5E3CEC32D867AC5004F7630 /* Project object */;
+			containerPortal = EA45A8322DA1A2F20007E5FF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5E3CECA2D867AC5004F7630;
+			remoteGlobalIDString = EA45A8392DA1A2F20007E5FF;
 			remoteInfo = AdvancedToDoApplication;
 		};
-		A5E3CEEB2D867AC7004F7630 /* PBXContainerItemProxy */ = {
+		EA45A85A2DA1A2F30007E5FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A5E3CEC32D867AC5004F7630 /* Project object */;
+			containerPortal = EA45A8322DA1A2F20007E5FF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5E3CECA2D867AC5004F7630;
+			remoteGlobalIDString = EA45A8392DA1A2F20007E5FF;
 			remoteInfo = AdvancedToDoApplication;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A5E3CECB2D867AC5004F7630 /* AdvancedToDoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedToDoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5E3CEE02D867AC7004F7630 /* AdvancedToDoApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedToDoApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5E3CEEA2D867AC7004F7630 /* AdvancedToDoApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedToDoApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA45A83A2DA1A2F20007E5FF /* AdvancedToDoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedToDoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA45A83D2DA1A2F20007E5FF /* AdvancedToDoApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedToDoApplicationApp.swift; sourceTree = "<group>"; };
+		EA45A8412DA1A2F30007E5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA45A8442DA1A2F30007E5FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA45A8462DA1A2F30007E5FF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EA45A8492DA1A2F30007E5FF /* AdvancedToDoApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdvancedToDoApplication.xcdatamodel; sourceTree = "<group>"; };
+		EA45A84F2DA1A2F30007E5FF /* AdvancedToDoApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedToDoApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA45A8532DA1A2F30007E5FF /* AdvancedToDoApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedToDoApplicationTests.swift; sourceTree = "<group>"; };
+		EA45A8592DA1A2F30007E5FF /* AdvancedToDoApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedToDoApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA45A85D2DA1A2F30007E5FF /* AdvancedToDoApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedToDoApplicationUITests.swift; sourceTree = "<group>"; };
+		EA45A85F2DA1A2F30007E5FF /* AdvancedToDoApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedToDoApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA45A86D2DA1A32F0007E5FF /* CreateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskView.swift; sourceTree = "<group>"; };
+		EA45A8702DA1A3480007E5FF /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		EA45A8722DA1A35E0007E5FF /* TaskCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCategoriesView.swift; sourceTree = "<group>"; };
+		EA45A8742DA1A3770007E5FF /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		EA45A8762DA1A3870007E5FF /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A5E3CECD2D867AC5004F7630 /* AdvancedToDoApplication */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AdvancedToDoApplication;
-			sourceTree = "<group>";
-		};
-		A5E3CEE32D867AC7004F7630 /* AdvancedToDoApplicationTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AdvancedToDoApplicationTests;
-			sourceTree = "<group>";
-		};
-		A5E3CEED2D867AC7004F7630 /* AdvancedToDoApplicationUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AdvancedToDoApplicationUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		A5E3CEC82D867AC5004F7630 /* Frameworks */ = {
+		EA45A8372DA1A2F20007E5FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5E3CEDD2D867AC7004F7630 /* Frameworks */ = {
+		EA45A84C2DA1A2F30007E5FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5E3CEE72D867AC7004F7630 /* Frameworks */ = {
+		EA45A8562DA1A2F30007E5FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,157 +83,193 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A5E3CEC22D867AC5004F7630 = {
+		EA45A8312DA1A2F20007E5FF = {
 			isa = PBXGroup;
 			children = (
-				A5E3CECD2D867AC5004F7630 /* AdvancedToDoApplication */,
-				A5E3CEE32D867AC7004F7630 /* AdvancedToDoApplicationTests */,
-				A5E3CEED2D867AC7004F7630 /* AdvancedToDoApplicationUITests */,
-				A5E3CECC2D867AC5004F7630 /* Products */,
+				EA45A83C2DA1A2F20007E5FF /* AdvancedToDoApplication */,
+				EA45A8522DA1A2F30007E5FF /* AdvancedToDoApplicationTests */,
+				EA45A85C2DA1A2F30007E5FF /* AdvancedToDoApplicationUITests */,
+				EA45A83B2DA1A2F20007E5FF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A5E3CECC2D867AC5004F7630 /* Products */ = {
+		EA45A83B2DA1A2F20007E5FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5E3CECB2D867AC5004F7630 /* AdvancedToDoApplication.app */,
-				A5E3CEE02D867AC7004F7630 /* AdvancedToDoApplicationTests.xctest */,
-				A5E3CEEA2D867AC7004F7630 /* AdvancedToDoApplicationUITests.xctest */,
+				EA45A83A2DA1A2F20007E5FF /* AdvancedToDoApplication.app */,
+				EA45A84F2DA1A2F30007E5FF /* AdvancedToDoApplicationTests.xctest */,
+				EA45A8592DA1A2F30007E5FF /* AdvancedToDoApplicationUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EA45A83C2DA1A2F20007E5FF /* AdvancedToDoApplication */ = {
+			isa = PBXGroup;
+			children = (
+				EA45A86C2DA1A3170007E5FF /* Views */,
+				EA45A83D2DA1A2F20007E5FF /* AdvancedToDoApplicationApp.swift */,
+				EA45A8412DA1A2F30007E5FF /* Assets.xcassets */,
+				EA45A8462DA1A2F30007E5FF /* Persistence.swift */,
+				EA45A8482DA1A2F30007E5FF /* AdvancedToDoApplication.xcdatamodeld */,
+				EA45A8432DA1A2F30007E5FF /* Preview Content */,
+			);
+			path = AdvancedToDoApplication;
+			sourceTree = "<group>";
+		};
+		EA45A8432DA1A2F30007E5FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA45A8442DA1A2F30007E5FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA45A8522DA1A2F30007E5FF /* AdvancedToDoApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA45A8532DA1A2F30007E5FF /* AdvancedToDoApplicationTests.swift */,
+			);
+			path = AdvancedToDoApplicationTests;
+			sourceTree = "<group>";
+		};
+		EA45A85C2DA1A2F30007E5FF /* AdvancedToDoApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA45A85D2DA1A2F30007E5FF /* AdvancedToDoApplicationUITests.swift */,
+				EA45A85F2DA1A2F30007E5FF /* AdvancedToDoApplicationUITestsLaunchTests.swift */,
+			);
+			path = AdvancedToDoApplicationUITests;
+			sourceTree = "<group>";
+		};
+		EA45A86C2DA1A3170007E5FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA45A86D2DA1A32F0007E5FF /* CreateTaskView.swift */,
+				EA45A8702DA1A3480007E5FF /* SplashScreenView.swift */,
+				EA45A8722DA1A35E0007E5FF /* TaskCategoriesView.swift */,
+				EA45A8742DA1A3770007E5FF /* TaskDetailView.swift */,
+				EA45A8762DA1A3870007E5FF /* TaskListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5E3CECA2D867AC5004F7630 /* AdvancedToDoApplication */ = {
+		EA45A8392DA1A2F20007E5FF /* AdvancedToDoApplication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5E3CEF42D867AC7004F7630 /* Build configuration list for PBXNativeTarget "AdvancedToDoApplication" */;
+			buildConfigurationList = EA45A8632DA1A2F30007E5FF /* Build configuration list for PBXNativeTarget "AdvancedToDoApplication" */;
 			buildPhases = (
-				A5E3CEC72D867AC5004F7630 /* Sources */,
-				A5E3CEC82D867AC5004F7630 /* Frameworks */,
-				A5E3CEC92D867AC5004F7630 /* Resources */,
+				EA45A8362DA1A2F20007E5FF /* Sources */,
+				EA45A8372DA1A2F20007E5FF /* Frameworks */,
+				EA45A8382DA1A2F20007E5FF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A5E3CECD2D867AC5004F7630 /* AdvancedToDoApplication */,
 			);
 			name = AdvancedToDoApplication;
-			packageProductDependencies = (
-			);
 			productName = AdvancedToDoApplication;
-			productReference = A5E3CECB2D867AC5004F7630 /* AdvancedToDoApplication.app */;
+			productReference = EA45A83A2DA1A2F20007E5FF /* AdvancedToDoApplication.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A5E3CEDF2D867AC7004F7630 /* AdvancedToDoApplicationTests */ = {
+		EA45A84E2DA1A2F30007E5FF /* AdvancedToDoApplicationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5E3CEF72D867AC7004F7630 /* Build configuration list for PBXNativeTarget "AdvancedToDoApplicationTests" */;
+			buildConfigurationList = EA45A8662DA1A2F30007E5FF /* Build configuration list for PBXNativeTarget "AdvancedToDoApplicationTests" */;
 			buildPhases = (
-				A5E3CEDC2D867AC7004F7630 /* Sources */,
-				A5E3CEDD2D867AC7004F7630 /* Frameworks */,
-				A5E3CEDE2D867AC7004F7630 /* Resources */,
+				EA45A84B2DA1A2F30007E5FF /* Sources */,
+				EA45A84C2DA1A2F30007E5FF /* Frameworks */,
+				EA45A84D2DA1A2F30007E5FF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A5E3CEE22D867AC7004F7630 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A5E3CEE32D867AC7004F7630 /* AdvancedToDoApplicationTests */,
+				EA45A8512DA1A2F30007E5FF /* PBXTargetDependency */,
 			);
 			name = AdvancedToDoApplicationTests;
-			packageProductDependencies = (
-			);
 			productName = AdvancedToDoApplicationTests;
-			productReference = A5E3CEE02D867AC7004F7630 /* AdvancedToDoApplicationTests.xctest */;
+			productReference = EA45A84F2DA1A2F30007E5FF /* AdvancedToDoApplicationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A5E3CEE92D867AC7004F7630 /* AdvancedToDoApplicationUITests */ = {
+		EA45A8582DA1A2F30007E5FF /* AdvancedToDoApplicationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5E3CEFA2D867AC7004F7630 /* Build configuration list for PBXNativeTarget "AdvancedToDoApplicationUITests" */;
+			buildConfigurationList = EA45A8692DA1A2F30007E5FF /* Build configuration list for PBXNativeTarget "AdvancedToDoApplicationUITests" */;
 			buildPhases = (
-				A5E3CEE62D867AC7004F7630 /* Sources */,
-				A5E3CEE72D867AC7004F7630 /* Frameworks */,
-				A5E3CEE82D867AC7004F7630 /* Resources */,
+				EA45A8552DA1A2F30007E5FF /* Sources */,
+				EA45A8562DA1A2F30007E5FF /* Frameworks */,
+				EA45A8572DA1A2F30007E5FF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A5E3CEEC2D867AC7004F7630 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A5E3CEED2D867AC7004F7630 /* AdvancedToDoApplicationUITests */,
+				EA45A85B2DA1A2F30007E5FF /* PBXTargetDependency */,
 			);
 			name = AdvancedToDoApplicationUITests;
-			packageProductDependencies = (
-			);
 			productName = AdvancedToDoApplicationUITests;
-			productReference = A5E3CEEA2D867AC7004F7630 /* AdvancedToDoApplicationUITests.xctest */;
+			productReference = EA45A8592DA1A2F30007E5FF /* AdvancedToDoApplicationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A5E3CEC32D867AC5004F7630 /* Project object */ = {
+		EA45A8322DA1A2F20007E5FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					A5E3CECA2D867AC5004F7630 = {
-						CreatedOnToolsVersion = 16.2;
+					EA45A8392DA1A2F20007E5FF = {
+						CreatedOnToolsVersion = 15.2;
 					};
-					A5E3CEDF2D867AC7004F7630 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = A5E3CECA2D867AC5004F7630;
+					EA45A84E2DA1A2F30007E5FF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EA45A8392DA1A2F20007E5FF;
 					};
-					A5E3CEE92D867AC7004F7630 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = A5E3CECA2D867AC5004F7630;
+					EA45A8582DA1A2F30007E5FF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EA45A8392DA1A2F20007E5FF;
 					};
 				};
 			};
-			buildConfigurationList = A5E3CEC62D867AC5004F7630 /* Build configuration list for PBXProject "AdvancedToDoApplication" */;
+			buildConfigurationList = EA45A8352DA1A2F20007E5FF /* Build configuration list for PBXProject "AdvancedToDoApplication" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A5E3CEC22D867AC5004F7630;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = A5E3CECC2D867AC5004F7630 /* Products */;
+			mainGroup = EA45A8312DA1A2F20007E5FF;
+			productRefGroup = EA45A83B2DA1A2F20007E5FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5E3CECA2D867AC5004F7630 /* AdvancedToDoApplication */,
-				A5E3CEDF2D867AC7004F7630 /* AdvancedToDoApplicationTests */,
-				A5E3CEE92D867AC7004F7630 /* AdvancedToDoApplicationUITests */,
+				EA45A8392DA1A2F20007E5FF /* AdvancedToDoApplication */,
+				EA45A84E2DA1A2F30007E5FF /* AdvancedToDoApplicationTests */,
+				EA45A8582DA1A2F30007E5FF /* AdvancedToDoApplicationUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A5E3CEC92D867AC5004F7630 /* Resources */ = {
+		EA45A8382DA1A2F20007E5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA45A8452DA1A2F30007E5FF /* Preview Assets.xcassets in Resources */,
+				EA45A8422DA1A2F30007E5FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA45A84D2DA1A2F30007E5FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5E3CEDE2D867AC7004F7630 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5E3CEE82D867AC7004F7630 /* Resources */ = {
+		EA45A8572DA1A2F30007E5FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,44 +279,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A5E3CEC72D867AC5004F7630 /* Sources */ = {
+		EA45A8362DA1A2F20007E5FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA45A8752DA1A3770007E5FF /* TaskDetailView.swift in Sources */,
+				EA45A84A2DA1A2F30007E5FF /* AdvancedToDoApplication.xcdatamodeld in Sources */,
+				EA45A8772DA1A3870007E5FF /* TaskListView.swift in Sources */,
+				EA45A86E2DA1A32F0007E5FF /* CreateTaskView.swift in Sources */,
+				EA45A8732DA1A35E0007E5FF /* TaskCategoriesView.swift in Sources */,
+				EA45A8472DA1A2F30007E5FF /* Persistence.swift in Sources */,
+				EA45A83E2DA1A2F20007E5FF /* AdvancedToDoApplicationApp.swift in Sources */,
+				EA45A8712DA1A3480007E5FF /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5E3CEDC2D867AC7004F7630 /* Sources */ = {
+		EA45A84B2DA1A2F30007E5FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA45A8542DA1A2F30007E5FF /* AdvancedToDoApplicationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5E3CEE62D867AC7004F7630 /* Sources */ = {
+		EA45A8552DA1A2F30007E5FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA45A85E2DA1A2F30007E5FF /* AdvancedToDoApplicationUITests.swift in Sources */,
+				EA45A8602DA1A2F30007E5FF /* AdvancedToDoApplicationUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A5E3CEE22D867AC7004F7630 /* PBXTargetDependency */ = {
+		EA45A8512DA1A2F30007E5FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A5E3CECA2D867AC5004F7630 /* AdvancedToDoApplication */;
-			targetProxy = A5E3CEE12D867AC7004F7630 /* PBXContainerItemProxy */;
+			target = EA45A8392DA1A2F20007E5FF /* AdvancedToDoApplication */;
+			targetProxy = EA45A8502DA1A2F30007E5FF /* PBXContainerItemProxy */;
 		};
-		A5E3CEEC2D867AC7004F7630 /* PBXTargetDependency */ = {
+		EA45A85B2DA1A2F30007E5FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A5E3CECA2D867AC5004F7630 /* AdvancedToDoApplication */;
-			targetProxy = A5E3CEEB2D867AC7004F7630 /* PBXContainerItemProxy */;
+			target = EA45A8392DA1A2F20007E5FF /* AdvancedToDoApplication */;
+			targetProxy = EA45A85A2DA1A2F30007E5FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		A5E3CEF22D867AC7004F7630 /* Debug */ = {
+		EA45A8612DA1A2F30007E5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -321,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -332,7 +390,7 @@
 			};
 			name = Debug;
 		};
-		A5E3CEF32D867AC7004F7630 /* Release */ = {
+		EA45A8622DA1A2F30007E5FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -378,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -388,7 +446,7 @@
 			};
 			name = Release;
 		};
-		A5E3CEF52D867AC7004F7630 /* Debug */ = {
+		EA45A8642DA1A2F30007E5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -416,7 +474,7 @@
 			};
 			name = Debug;
 		};
-		A5E3CEF62D867AC7004F7630 /* Release */ = {
+		EA45A8652DA1A2F30007E5FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -444,14 +502,15 @@
 			};
 			name = Release;
 		};
-		A5E3CEF82D867AC7004F7630 /* Debug */ = {
+		EA45A8672DA1A2F30007E5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = gbc.AdvancedToDoApplicationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,14 +521,15 @@
 			};
 			name = Debug;
 		};
-		A5E3CEF92D867AC7004F7630 /* Release */ = {
+		EA45A8682DA1A2F30007E5FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = gbc.AdvancedToDoApplicationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,9 +540,10 @@
 			};
 			name = Release;
 		};
-		A5E3CEFB2D867AC7004F7630 /* Debug */ = {
+		EA45A86A2DA1A2F30007E5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -496,9 +557,10 @@
 			};
 			name = Debug;
 		};
-		A5E3CEFC2D867AC7004F7630 /* Release */ = {
+		EA45A86B2DA1A2F30007E5FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -515,43 +577,56 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5E3CEC62D867AC5004F7630 /* Build configuration list for PBXProject "AdvancedToDoApplication" */ = {
+		EA45A8352DA1A2F20007E5FF /* Build configuration list for PBXProject "AdvancedToDoApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5E3CEF22D867AC7004F7630 /* Debug */,
-				A5E3CEF32D867AC7004F7630 /* Release */,
+				EA45A8612DA1A2F30007E5FF /* Debug */,
+				EA45A8622DA1A2F30007E5FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5E3CEF42D867AC7004F7630 /* Build configuration list for PBXNativeTarget "AdvancedToDoApplication" */ = {
+		EA45A8632DA1A2F30007E5FF /* Build configuration list for PBXNativeTarget "AdvancedToDoApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5E3CEF52D867AC7004F7630 /* Debug */,
-				A5E3CEF62D867AC7004F7630 /* Release */,
+				EA45A8642DA1A2F30007E5FF /* Debug */,
+				EA45A8652DA1A2F30007E5FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5E3CEF72D867AC7004F7630 /* Build configuration list for PBXNativeTarget "AdvancedToDoApplicationTests" */ = {
+		EA45A8662DA1A2F30007E5FF /* Build configuration list for PBXNativeTarget "AdvancedToDoApplicationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5E3CEF82D867AC7004F7630 /* Debug */,
-				A5E3CEF92D867AC7004F7630 /* Release */,
+				EA45A8672DA1A2F30007E5FF /* Debug */,
+				EA45A8682DA1A2F30007E5FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5E3CEFA2D867AC7004F7630 /* Build configuration list for PBXNativeTarget "AdvancedToDoApplicationUITests" */ = {
+		EA45A8692DA1A2F30007E5FF /* Build configuration list for PBXNativeTarget "AdvancedToDoApplicationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5E3CEFB2D867AC7004F7630 /* Debug */,
-				A5E3CEFC2D867AC7004F7630 /* Release */,
+				EA45A86A2DA1A2F30007E5FF /* Debug */,
+				EA45A86B2DA1A2F30007E5FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA45A8482DA1A2F30007E5FF /* AdvancedToDoApplication.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA45A8492DA1A2F30007E5FF /* AdvancedToDoApplication.xcdatamodel */,
+			);
+			currentVersion = EA45A8492DA1A2F30007E5FF /* AdvancedToDoApplication.xcdatamodel */;
+			path = AdvancedToDoApplication.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = A5E3CEC32D867AC5004F7630 /* Project object */;
+	rootObject = EA45A8322DA1A2F20007E5FF /* Project object */;
 }
