@@ -4,25 +4,22 @@ struct TaskCategoriesView: View {
     @State private var categories: [String] = []
     @State private var newCategory = ""
     @State private var showAlert = false
+    @State private var searchText = ""
 
     var body: some View {
         NavigationStack {
             VStack {
-            
                 Text("To do list")
                     .font(.largeTitle)
                     .bold()
                     .padding(.top, 40)
 
-                
                 Text("Task Categories:")
                     .font(.headline)
                     .padding(.top, 10)
 
-            
                 LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
                     
-                    // Add Category Button
                     Button(action: {
                         showAlert = true
                     }) {
@@ -36,7 +33,7 @@ struct TaskCategoriesView: View {
                         }
                     }
 
-                    ForEach(categories, id: \.self) { category in
+                    ForEach(filteredCategories, id: \.self) { category in
                         NavigationLink(destination: TaskListView(category: category)) {
                             ZStack {
                                 RoundedRectangle(cornerRadius: 10)
@@ -54,6 +51,7 @@ struct TaskCategoriesView: View {
 
                 Spacer()
             }
+            .searchable(text: $searchText, prompt: "Search categories...")
             .alert("New Category", isPresented: $showAlert) {
                 VStack {
                     TextField("Category Name", text: $newCategory)
@@ -74,6 +72,16 @@ struct TaskCategoriesView: View {
             categories.append(newCategory)
             newCategory = ""
             showAlert = false
+        }
+    }
+
+    var filteredCategories: [String] {
+        if searchText.isEmpty {
+            return categories
+        } else {
+            return categories.filter {
+                $0.localizedCaseInsensitiveContains(searchText)
+            }
         }
     }
 }
